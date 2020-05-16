@@ -40,7 +40,7 @@ const equalsButton = document.querySelectorAll('[data-equals]')
 const deleteButton = document.querySelectorAll('[data-delete]')
 const allClearButtonButton = document.querySelectorAll('[data-all-clear]')
 const previousOperandTextElement = document.querySelectorAll('[data-previous-operand]')
-const currentOperandTextElement = document.querySelectorAll('[data-current-operand]')
+const currentOperandTextElement = document.querySelector('[data-current-operand]')
 
 const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
 
